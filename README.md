@@ -41,6 +41,13 @@ GIT_PROMPT_ONLY_IN_REPO=1
 source ~/.bash-git-prompt/gitprompt.sh
 
 ```
+## Install groovy and grails
+Using sdk
+```
+curl -s get.sdkman.io | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install groovy
+sdk install grails
 
 
 
